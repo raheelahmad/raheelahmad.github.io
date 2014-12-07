@@ -62,13 +62,14 @@ Also, if you want to contribute to the Cocoa community but hold the same opinion
 
 Also, the best community support you can provide is to teach people. You can teach not just how to write solutions, but how to write good solutions. For a lot of us, the struggle is not how to use Cocoa, but how to write code that scales with complexity. And, when others learn from your approach, they can take the work that they like, and leave out the bits they don't.
 	
-## Post Post Script. Carthage as another option
+## Post Post Script. Frameworks as a CocoaPods alternative
 
-[Carthage](https://github.com/Carthage/Carthage) is an alternative to Cocoapods, that may be better suited to your needs if you are targetting iOS 8 onwards:
+If you are targeting iOS 8 onwards, consider frameworks as the modern way to distribute and consume code. They are also useful for your own project's code architecture.
+
+If you want some more structure around frameworks, consider [Carthage](https://github.com/Carthage/Carthage):
 
 - no git submodules, but git sources are still specified
 - versioning (tags-based)
 - easy access to the built frameworks, instead of hunting in DerivedData
 - you keep your project file organization
 
-Also, consider frameworks—what Carthage uses—as the modern way to distribute code. It is also useful for your own project's code architecture.
