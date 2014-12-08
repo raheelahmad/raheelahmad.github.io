@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The case against Cocoapods and AFNetworking
+title: Count to 5 before you pod install
 ---
 
 In the past few years, the iOS/Mac open source community has gone from a few developers maintaining a few libraries, to a thriving community [representing](https://github.com/trending) Objective-C (and now Swift) prominently on GitHub. [CocoaPods](http://cocoapods.org) has supported the community with the ease-of-integration for libraries that Apple left out of its platform.
